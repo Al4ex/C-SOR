@@ -17,14 +17,19 @@ No firmar un fijo 6×9 presencial que mate entrevistas. Preferir obra/labor, 3 m
 
 Ella ya hizo soporte ITIL, equipos y Aranda. Eso entra más fácil que “developer”.
 
-| Rol | Dónde | Plata aprox. | Link |
-|-----|--------|--------------|------|
-| Help Desk N1 híbrido Medellín | Stefanini | 2–2.5 M | [Elempleo](https://www.elempleo.com/co/ofertas-trabajo/help-desk-analyst-n1-horario-rotativo-hibrido-en-medellin-1886745808) · [LinkedIn Stefanini](https://www.linkedin.com/jobs/search/?keywords=Help%20Desk%20Stefanini&location=Medell%C3%ADn) |
-| Junior desarrollo **y** soporte (Angular) | Listos S.A.S. | ~2.5 M + extras | [Elempleo](https://www.elempleo.com/co/ofertas-trabajo/ingeniero-junior-desarrollo-y-soporte-bogota-hibrido-1886741059) |
-| Mesa de ayuda N1 POS | Medellín, híbrido (casa + cuando pidan) | a convenir, indefinido | [Elempleo](https://www.elempleo.com/co/ofertas-trabajo/analista-de-mesa-de-ayuda-soporte-nivel-1-sistema-pos-medellin-1886738301) |
-| Mesa de ayuda ITIL | ASIC, El Poblado | típico 2–3 M | [Elempleo mesa de ayuda Medellín](https://www.elempleo.com/co/ofertas-empleo/trabajo-analista-de-mesa-de-ayuda-medellin) |
-| Analista soporte IT | TuParcero Medellín | a convenir | [Mipleo](https://www.mipleo.com.co/ofertas-de-trabajo/oferta-de-trabajo-en-antioquia/analista-de-soporte-it-medellin-12701503.html) |
-| Técnico soporte | TEAM IT / Tech Medellín | ~2 M, plazo ~9 sep | Computrabajo / [Indeed mesa de ayuda Medellín](https://co.indeed.com/q-mesa-de-ayuda-l-medell%C3%ADn,-antioquia-empleos.html) |
+Filtro: **Medellín o 100% remoto**. Si Elempleo pone “Bogotá” arriba, leer el texto: a veces es solo la sede jurídica de la empresa.
+
+| Rol | Ciudad real | Plata | Link |
+|-----|-------------|-------|------|
+| Help Desk N1 Stefanini | **Medellín Centro (El Palo)**, híbrido. 7 cupos. Elempleo miente y pone Bogotá | 1.95 M + 120 mil alimentación | [Elempleo](https://www.elempleo.com/co/ofertas-trabajo/help-desk-analyst-n1-horario-rotativo-hibrido-en-medellin-1886745808) |
+| Mesa de ayuda N2 Stefanini | Híbrido **Medellín** | confidencial | [Elempleo](https://www.elempleo.com/co/ofertas-trabajo/analista-de-mesa-de-ayuda-n2-de-ti-hibrido-medellin-1886746721) |
+| Soporte N1 software / POS | **Medellín** híbrido (casi casa; ir si el cliente pide) | 2–2.5 M | [Software](https://www.elempleo.com/co/ofertas-trabajo/analista-de-soporte-nivel-1-software-medellin-1886738203) · [POS](https://www.elempleo.com/co/ofertas-trabajo/analista-de-mesa-de-ayuda-soporte-nivel-1-sistema-pos-medellin-1886738301) |
+| Help Desk L1 7x24 | **Medellín** híbrido | confidencial | [Elempleo](https://www.elempleo.com/co/ofertas-trabajo/help-desk-analyst-l1-7x24-rotativo-medellin-1886746129) |
+| Mesa de ayuda ITIL | ASIC, **El Poblado** | ~2–3 M | [Listado Medellín](https://www.elempleo.com/co/ofertas-empleo/trabajo-analista-de-mesa-de-ayuda-medellin) |
+| Analista soporte IT | TuParcero **Medellín** | a convenir | [Mipleo](https://www.mipleo.com.co/ofertas-de-trabajo/oferta-de-trabajo-en-antioquia/analista-de-soporte-it-medellin-12701503.html) |
+| Técnico soporte / Sonda / Indra N1 | **Medellín** | ~2 M | [Indeed Medellín](https://co.indeed.com/q-mesa-de-ayuda-l-medell%C3%ADn,-antioquia-empleos.html) |
+
+**No:** Listos “junior Angular + soporte” es **Bogotá híbrido**. Saltarlo.
 
 Vaciar estas búsquedas **hoy** (filtro Medellín + última semana):
 
