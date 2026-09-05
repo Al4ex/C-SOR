@@ -1,6 +1,6 @@
 # Plan B — si necesita ingreso esta quincena
 
-Salesforce es el mejor sueldo a 30–60 días. Si el arriendo no espera, activar **en paralelo** (no en vez de) estas vías. El CV ya tiene soporte ITIL, web y análisis.
+La lista con links y el orden de ataque está en [`07-entrada-rapida.md`](07-entrada-rapida.md). Resumen: mesa de ayuda primero, QA después, BPO al último. Sin ProContacto.
 
 ## 1) Roles que cierran más rápido que “Developer Salesforce”
 
