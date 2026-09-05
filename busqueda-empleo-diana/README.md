@@ -12,8 +12,9 @@ Kit listo para postular **hoy**. Diana es desarrolladora Salesforce (Apex, LWC, 
 4. El mismo día arma perfiles freelance en [`03-freelance.md`](03-freelance.md).
 5. Actualiza LinkedIn y el CV con [`04-cv-y-linkedin.md`](04-cv-y-linkedin.md).
 6. El mismo día aplica Angular/Node en [`06-angular-nodejs.md`](06-angular-nodejs.md).
-7. Si urge la plata esta quincena: [`07-entrada-rapida.md`](07-entrada-rapida.md) (mesa de ayuda primero, BPO al último).
-8. Marca cada envío en [`tracker.csv`](tracker.csv).
+7. Encargos que podemos construir: [`08-proyectos-freelance.md`](08-proyectos-freelance.md).
+8. Si urge la plata esta quincena: [`07-entrada-rapida.md`](07-entrada-rapida.md).
+9. Marca cada envío en [`tracker.csv`](tracker.csv).
 
 ## Meta de esta semana
 
