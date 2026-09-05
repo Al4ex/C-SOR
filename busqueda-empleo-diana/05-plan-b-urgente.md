@@ -10,7 +10,7 @@ Buscar **esta semana** en Computrabajo, Magneto, Elempleo, LinkedIn:
 |----------|-------------------|--------|
 | Analista de soporte N1/N2 / Service Desk | Práctica ITIL + Aranda + Jira | Computrabajo, Hitss, Claro, Tigo, Bancolombia proveedores |
 | Analista QA / testers manuales | Documentación, UAT, Scrum | Magneto, Elempleo |
-| Desarrollador frontend junior / maquetador | HTML, CSS, Sass, JS, Angular | Get on Board, Computrabajo |
+| Desarrollador frontend junior / maquetador | HTML, CSS, Sass, JS, Angular | Ver también `06-angular-nodejs.md` (pista completa, no solo plan B) |
 | Analista funcional junior / requerimientos | Levantamiento en CIS y ProContacto | Consultoras Medellín |
 | Agente BPO / CRM (Salesforce usuario) | Entra en días; mal pago, pero hay turno | Teleperformance, Atento, Konecta, Concentrix |
 | Auxiliar de desarrollo / trainee | Menos plata, contrato ya | CENSA alumni, bootcamps, fábricas Medellín |

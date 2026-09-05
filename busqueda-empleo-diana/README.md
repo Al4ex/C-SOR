@@ -1,6 +1,6 @@
 # Búsqueda de trabajo — Diana Zelda Chirinos
 
-Kit listo para postular **hoy**. Diana es desarrolladora Salesforce (Apex, LWC, Visualforce, SOQL, REST/SOAP) en Colombia, con ~1.5 años en ProContacto y práctica en desarrollo web. **Disponibilidad inmediata**, fijo o freelance.
+Kit listo para postular **hoy**. Diana es desarrolladora Salesforce (Apex, LWC, Visualforce, SOQL, REST/SOAP) **y fullstack junior Angular + Node.js/Express + MySQL** (proyecto Inventario SAPPs). Colombia. **Disponibilidad inmediata**, fijo o freelance.
 
 **No hay datos personales aquí** (teléfono/correo). Usar los del CV al postular.
 
@@ -11,13 +11,14 @@ Kit listo para postular **hoy**. Diana es desarrolladora Salesforce (Apex, LWC, 
 3. Copia textos de [`02-cartas-y-mensajes.md`](02-cartas-y-mensajes.md).
 4. El mismo día arma perfiles freelance en [`03-freelance.md`](03-freelance.md).
 5. Actualiza LinkedIn y el CV con [`04-cv-y-linkedin.md`](04-cv-y-linkedin.md).
-6. Si en 7 días no hay entrevistas Salesforce, activa [`05-plan-b-urgente.md`](05-plan-b-urgente.md).
-7. Marca cada envío en [`tracker.csv`](tracker.csv).
+6. El mismo día aplica Angular/Node en [`06-angular-nodejs.md`](06-angular-nodejs.md) (hay más junior que en Salesforce).
+7. Si en 7 días no hay entrevistas, activa [`05-plan-b-urgente.md`](05-plan-b-urgente.md).
+8. Marca cada envío en [`tracker.csv`](tracker.csv).
 
 ## Meta de esta semana
 
-- **Lunes–martes:** 15 postulaciones Salesforce + LinkedIn Open to Work + 2 perfiles freelance.
-- **Miércoles–jueves:** 15 más (consultoras + junior web/soporte) + 10 propuestas en Workana/Upwork.
+- **Lunes–martes:** 10 Salesforce + 10 Angular/Node + LinkedIn Open to Work + 2 perfiles freelance.
+- **Miércoles–jueves:** consultoras + 15 propuestas Workana (priorizar Angular/Node; hay más gigs).
 - **Viernes:** follow-up a reclutadores y Trailhead visible en el perfil.
 
 Volumen importa: en junior Salesforce Colombia gana quien aplica rápido y a muchas puertas, no quien espera la vacante “perfecta”.

@@ -6,7 +6,7 @@ El fijo Salesforce en consultora tarda 2–6 semanas. Freelance puede pagar en 7
 
 | Plataforma | Encaje | URL | Qué vender |
 |------------|--------|-----|------------|
-| **Workana** | Mejor para LATAM en español | https://www.workana.com/ | Salesforce + “arreglo tu CRM” + landing JS |
+| **Workana** | Mejor para LATAM en español | https://www.workana.com/ | **Angular + Node primero** (más gigs). Salesforce como extra. |
 | **Upwork** | Más volumen USD | https://www.upwork.com/ | Salesforce Developer / Admin junior |
 | **Freelancer.com** | Concursos y gigs chicos | https://www.freelancer.com/ | Apex bugfix, Flows, LWC |
 | **Fiverr** | Paquetes fijos | https://www.fiverr.com/ | 3 gigs (abajo) |
@@ -19,9 +19,9 @@ También: [Torre](https://torre.ai/), [Revelo](https://www.revelo.com/), [Turing
 
 ## Título de perfil (Workana / Upwork)
 
-**ES:** `Desarrolladora Salesforce (Apex, LWC, Flows) | Integraciones REST | Disponible ya`
+**ES:** `Fullstack junior Angular + Node.js/Express + MySQL | Salesforce (Apex, LWC) | Disponible ya`
 
-**EN:** `Salesforce Developer (Apex, LWC, SOQL) | REST/SOAP integrations | Immediate start`
+**EN:** `Junior fullstack Angular + Node/Express + MySQL | Salesforce Apex/LWC | Immediate start`
 
 ### Overview (pegar)
 
@@ -36,7 +36,8 @@ Puedo encargarme de:
 • Limpieza/migración de datos
 • Documentación y handoff
 
-También desarrollo web (JavaScript, HTML, CSS, Sass) y un inventario full-stack (Angular, Node, MySQL).
+Proyecto propio: Inventario SAPPs (Angular, Bootstrap, Node.js, Express, MySQL).
+También JS, HTML, CSS, Sass. Git y VS Code al día.
 
 Trabajo con Git, VS Code y Jira. Comunicación clara en español; inglés técnico B1.
 
@@ -47,9 +48,9 @@ Primeros 3 proyectos: precio de arranque para construir reseñas.
 
 ## 3 gigs Fiverr / paquetes Workana
 
-1. **“Reviso tu org Salesforce en 48 h”** — 80–120 USD. Auditoría: objetos, automatizaciones rotas, 5 mejoras.
-2. **“LWC o trigger Apex + tests”** — 200–400 USD. Un componente o una automatización con cobertura.
-3. **“Integro Salesforce con tu API (REST)”** — 300–600 USD. Named Credential + Apex callout + log de errores.
+1. **“CRUD Angular + API Express + MySQL”** — 250–500 USD. El mismo patrón del inventario.
+2. **“Arreglo pantallas / bugs Angular”** — 80–200 USD.
+3. **“Reviso tu org Salesforce en 48 h”** — 80–120 USD. Auditoría: objetos, automatizaciones rotas, 5 mejoras.
 
 ---
 
@@ -77,6 +78,7 @@ Propongo [PRECIO] y entrega en [X] días. ¿Te parece una llamada corta mañana?
 Buscar también:
 
 - “CRM”, “automatización de ventas”, “HubSpot a Salesforce”
+- “Angular”, “Node.js”, “Express”, “MEAN”, “fullstack JavaScript”
 - “desarrollador JavaScript junior”, “maquetación HTML/CSS”
 - “soporte técnico aplicaciones”, “analista funcional junior”
 - “QA manual”, “pruebas UAT”

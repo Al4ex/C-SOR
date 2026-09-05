@@ -3,12 +3,12 @@
 ## Headline LinkedIn (poner ya)
 
 ```
-Desarrolladora Salesforce | Apex · LWC · Visualforce · Integraciones REST/SOAP | Disponible inmediata (Colombia)
+Desarrolladora Salesforce (Apex, LWC) | Fullstack junior Angular + Node.js/Express + MySQL | Disponible inmediata
 ```
 
 ## Open to Work
 
-- Preferencias: **Desarrollador de software**, **Administrador de Salesforce**, **Analista de sistemas**, **Soporte de aplicaciones**.
+- Preferencias: **Desarrollador de software**, **Desarrollador frontend**, **Desarrollador fullstack**, **Administrador de Salesforce**, **Analista de sistemas**.
 - Ubicaciones: Colombia + Remoto.
 - Tipos: tiempo completo, contrato, freelance.
 - Visibilidad: **reclutadores** (si no quiere que se entere todo el mundo) o público si la urgencia manda.
@@ -20,11 +20,11 @@ Desarrolladora Salesforce en Colombia, disponible de inmediato.
 
 Construyo soluciones en Apex, Lightning Web Components y Visualforce, con consultas SOQL/SOSL e integraciones REST/SOAP. En consultoría participé del análisis técnico-funcional, migraciones de datos y buenas prácticas con Git y VS Code.
 
-También tengo base en desarrollo web (JavaScript, HTML5, CSS3, Sass) y un proyecto full-stack de inventario (Angular, Node.js, Express, MySQL).
+Proyecto fullstack **Inventario SAPPs**: Angular + Bootstrap, API Node.js/Express, MySQL. También JS, HTML5, CSS3, Sass.
 
-Busco rol junior / junior-mid: desarrollo, mantenimiento o administración Salesforce. También proyectos freelance.
+Busco junior Salesforce **o** junior Angular/Node/fullstack. También freelance.
 
-Stack: Apex · LWC · Visualforce · SOQL/SOSL · REST/SOAP · Lightning Experience · Git · Jira · JavaScript
+Stack: Angular · Node.js · Express · MySQL · JavaScript · HTML · CSS · Sass · Apex · LWC · REST/SOAP · Git · Jira
 ```
 
 ## Experiencia: cómo escribir ProContacto
@@ -52,9 +52,11 @@ No extender ProContacto hasta “actualidad”.
 
 ## Palabras clave que el ATS busca (tienen que estar en el PDF)
 
-`Salesforce, Apex, Triggers, Lightning Web Components, LWC, Visualforce, SOQL, SOSL, REST API, SOAP, Flows, Lightning Experience, Sales Cloud, Service Cloud, Git, Jira, VS Code, JavaScript, HTML5, CSS3`
+`Salesforce, Apex, LWC, Visualforce, SOQL, REST API, SOAP, Git, Jira, JavaScript, HTML5, CSS3, Sass, Angular, Node.js, Express, MySQL, Bootstrap, MongoDB`
 
-Si usó Sales Cloud o Service Cloud en ProContacto, **nombrarlo**. Si hizo Flows, nombrarlo. El CV actual habla poco de Flows y de nubes: muchos avisos junior los piden.
+Si usó Sales Cloud o Service Cloud en ProContacto, **nombrarlo**. Si hizo Flows, nombrarlo.
+
+**Inventario SAPPs** debe quedar como proyecto con viñetas (no una línea): pantallas Angular, API Express, modelo MySQL, auth si la hay, deploy si lo hubo. Subir el repo a GitHub **hoy** si no está público: los reclutadores Angular piden link.
 
 ## Certificación gratis que desbloquea filtros
 

@@ -25,10 +25,29 @@ Diana Zelda Chirinos Ramírez
 
 ---
 
+## 1b) Carta Angular / Node / fullstack
+
+Asunto: `Desarrolladora fullstack junior — Angular + Node.js/Express + MySQL — inmediata`
+
+```
+Hola [NOMBRE],
+
+Soy Diana Chirinos, desarrolladora en Colombia, disponible de inmediato.
+
+Construí Inventario SAPPs: frontend en Angular y Bootstrap, API en Node.js/Express y MySQL. También desarrollo web (JavaScript, HTML5, CSS3, Sass) y consumo APIs REST. En consultoría Salesforce trabajé componentes (LWC) e integraciones, mismo tipo de problema: UI + API + datos.
+
+Me postulo a [ROL] en [EMPRESA] como junior frontend Angular, backend Node o fullstack. Puedo mostrar el inventario y empezar esta semana.
+
+Adjunto CV.
+Diana Chirinos
+```
+
+---
+
 ## 2) Easy Apply LinkedIn (máximo 300 palabras; pegar en “mensaje adicional”)
 
 ```
-Hola, soy Diana, desarrolladora Salesforce (Apex, LWC, Visualforce, SOQL, REST/SOAP) en Colombia. 1.5 años en proyectos de consultoría en ProContacto + práctica en análisis y web. Disponibilidad inmediata, remota o híbrida. Me interesa mucho [ROL] en [EMPRESA]. CV adjunto. ¿Agendamos una llamada esta semana?
+Hola, soy Diana, desarrolladora en Colombia. Salesforce (Apex, LWC, REST/SOAP) y fullstack junior: Angular + Node.js/Express + MySQL (Inventario SAPPs). JS, HTML, CSS, Sass, Git. Disponibilidad inmediata. Me interesa [ROL] en [EMPRESA]. ¿Agendamos una llamada esta semana?
 ```
 
 ---

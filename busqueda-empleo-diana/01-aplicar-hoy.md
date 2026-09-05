@@ -44,6 +44,21 @@ No esperar a que la vacante “junior” esté abierta. Enviar CV a bolsa de tal
 
 ---
 
+## Bloque A2 — Angular + Node (hacer el mismo día)
+
+Hay **más junior** aquí que en Salesforce. Lista completa: `06-angular-nodejs.md`.
+
+Mínimo hoy:
+
+- [BairesDev Junior Angular](https://www.elempleo.com/co/ofertas-trabajo/trabajo-desde-casa-junior-angular-developer-1886560048)
+- [BairesDev Node junior](https://www.linkedin.com/jobs/search/?keywords=Node.js%20Junior%20BairesDev&location=Colombia)
+- [Sombra Junior Frontend Angular](https://co.trabajo.org/oferta-1402-04596033a1c66d34bd483dda42c414c0)
+- [Magneto desarrollador web Angular](https://www.magneto365.com/co/empleos/desarrollador-975645)
+- [LinkedIn Angular última semana](https://www.linkedin.com/jobs/search/?keywords=Angular&location=Colombia&f_TPR=r604800)
+- [Workana Angular](https://www.workana.com/es/jobs?query=angular) + [Node](https://www.workana.com/es/jobs?query=nodejs) — 8 propuestas
+
+---
+
 ## Bloque C — búsquedas vivas para vaciar hoy
 
 Crear alerta en cada una (correo + app). Filtrar **última semana**.
