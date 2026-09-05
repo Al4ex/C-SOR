@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Diana — postular hoy</title>
+  <style>
+    :root {
+      --bg: #0f1419;
+      --card: #1a222c;
+      --line: #2a3644;
+      --text: #e8eef4;
+      --muted: #9aabbd;
+      --accent: #3dd6c6;
+      --warn: #f5b942;
+      --hot: #ff7a59;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: "Segoe UI", system-ui, sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      line-height: 1.45;
+    }
+    header {
+      padding: 2rem 1.25rem 1rem;
+      max-width: 980px;
+      margin: 0 auto;
+    }
+    h1 { margin: 0 0 0.35rem; font-size: 1.75rem; }
+    .sub { color: var(--muted); margin: 0 0 1rem; }
+    .pills { display: flex; flex-wrap: wrap; gap: 0.4rem; }
+    .pill {
+      background: #14353a;
+      color: var(--accent);
+      border: 1px solid #1f5a5a;
+      border-radius: 999px;
+      padding: 0.2rem 0.7rem;
+      font-size: 0.8rem;
+    }
+    main { max-width: 980px; margin: 0 auto; padding: 0 1.25rem 3rem; }
+    h2 { font-size: 1.15rem; margin: 1.75rem 0 0.75rem; color: var(--accent); }
+    .grid { display: grid; gap: 0.75rem; }
+    article {
+      background: var(--card);
+      border: 1px solid var(--line);
+      border-radius: 12px;
+      padding: 1rem 1.1rem;
+    }
+    article.hot { border-color: #6a3a2e; }
+    .meta { color: var(--muted); font-size: 0.85rem; margin-bottom: 0.35rem; }
+    .tag {
+      display: inline-block;
+      font-size: 0.7rem;
+      font-weight: 700;
+      letter-spacing: 0.04em;
+      text-transform: uppercase;
+      background: #3a2418;
+      color: var(--hot);
+      padding: 0.15rem 0.45rem;
+      border-radius: 4px;
+      margin-right: 0.4rem;
+    }
+    a.btn {
+      display: inline-block;
+      margin-top: 0.6rem;
+      background: var(--accent);
+      color: #04221f;
+      text-decoration: none;
+      font-weight: 700;
+      padding: 0.45rem 0.8rem;
+      border-radius: 8px;
+      font-size: 0.9rem;
+    }
+    a.btn.ghost {
+      background: transparent;
+      color: var(--accent);
+      border: 1px solid #2a6b66;
+    }
+    .row { display: flex; flex-wrap: wrap; gap: 0.5rem; }
+    .note {
+      background: #2a2414;
+      border: 1px solid #5a4a1e;
+      color: #f3e2a8;
+      padding: 0.85rem 1rem;
+      border-radius: 10px;
+      font-size: 0.92rem;
+    }
+    footer { color: var(--muted); font-size: 0.8rem; padding: 0 1.25rem 2rem; max-width: 980px; margin: 0 auto; }
+    ul.links { padding-left: 1.1rem; }
+    ul.links a { color: var(--accent); }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Postular hoy — Diana Chirinos</h1>
+    <p class="sub">Salesforce junior-mid · Colombia · fijo o freelance · disponibilidad inmediata. Kit del 5 sep 2026. Sin datos personales.</p>
+    <div class="pills">
+      <span class="pill">Apex</span>
+      <span class="pill">LWC</span>
+      <span class="pill">Visualforce</span>
+      <span class="pill">SOQL / SOSL</span>
+      <span class="pill">REST / SOAP</span>
+      <span class="pill">Git · Jira</span>
+    </div>
+  </header>
+  <main>
+    <p class="note">Meta de hoy: 10 Easy Apply + 3 formularios de empresa + mensaje a ProContacto + perfiles Workana y Upwork. Textos listos en <code>02-cartas-y-mensajes.md</code>.</p>
+
+    <h2>1. Mejor encaje — aplicar primero</h2>
+    <div class="grid">
+      <article class="hot">
+        <span class="tag">Prioridad</span>
+        <strong>Developer Salesforce (1–3 años)</strong>
+        <div class="meta">Elempleo · Bogotá híbrido · admin + Apex/LWC + soporte</div>
+        <a class="btn" href="https://www.elempleo.com/co/ofertas-trabajo/developer-salesforce-1886718486" target="_blank" rel="noopener">Postular en Elempleo</a>
+      </article>
+      <article class="hot">
+        <span class="tag">Prioridad</span>
+        <strong>Salesforce Junior Developer — Offshore</strong>
+        <div class="meta">Inetum · Apex, VF, Lightning, Flows, REST/SOAP</div>
+        <a class="btn" href="https://www.inetum.com/be/nl/careers/fe97c03d-b6d9-4d20-918f-7a821cb35556.html" target="_blank" rel="noopener">Postular en Inetum</a>
+      </article>
+      <article>
+        <strong>Desarrollador(a) Salesforce + Sales &amp; Service</strong>
+        <div class="meta">Hitss Colombia · avisos vivos en LinkedIn esta quincena</div>
+        <a class="btn" href="https://www.linkedin.com/jobs/search/?keywords=Salesforce%20Hitss&location=Colombia" target="_blank" rel="noopener">Ver en LinkedIn</a>
+      </article>
+      <article>
+        <strong>Salesforce Administrator</strong>
+        <div class="meta">Veta Virtual · remoto Colombia · entra más rápido que “developer senior”</div>
+        <a class="btn" href="https://www.linkedin.com/jobs/search/?keywords=Salesforce%20Administrator&location=Colombia" target="_blank" rel="noopener">Buscar admin</a>
+      </article>
+      <article>
+        <strong>Desarrollador Salesforce temporal / mantenimiento</strong>
+        <div class="meta">Michael Page · remoto y Bogotá · refs JN-062026-7039649 y JN-082026-7077242</div>
+        <div class="row">
+          <a class="btn" href="https://www.michaelpage.com.co/job-detail/desarrollador-salesforce/ref/jn-062026-7039649" target="_blank" rel="noopener">Temporal remoto</a>
+          <a class="btn ghost" href="https://www.michaelpage.com.co/job-detail/profesional-de-desarrollo-y-mantenimiento-salesforce/ref/jn-082026-7077242" target="_blank" rel="noopener">Mantenimiento</a>
+        </div>
+      </article>
+      <article>
+        <strong>Mindtech remoto + VASS consultor + Inetum Vlocity</strong>
+        <div class="meta">Publicados esta semana en Indeed / LinkedIn. Vlocity “intermedio”: postular igual.</div>
+        <div class="row">
+          <a class="btn" href="https://co.indeed.com/q-salesforce-developer-empleos.html" target="_blank" rel="noopener">Indeed Salesforce</a>
+          <a class="btn ghost" href="https://www.linkedin.com/jobs/search/?keywords=Consultor%20Salesforce%20VASS&location=Colombia" target="_blank" rel="noopener">VASS</a>
+        </div>
+      </article>
+    </div>
+
+    <h2>2. Consultoras — mandar CV aunque el aviso diga “senior”</h2>
+    <div class="grid">
+      <article>
+        <strong>Slalom Colombia</strong>
+        <div class="meta">Developer ARM/CPQ · Bogotá / Medellín · 3+ años (stretch)</div>
+        <a class="btn" href="https://jobs.slalom.com/es_ES/careersmarketplace/JobDetail/Salesforce-Developer-ARM-CPQ/2093" target="_blank" rel="noopener">Aplicar en Slalom</a>
+      </article>
+      <article>
+        <strong>NTT DATA · BairesDev · Globant · Accenture</strong>
+        <div class="meta">Bolsa permanente. NTT junior a veces sale “filled” en el site y sigue en LinkedIn.</div>
+        <div class="row">
+          <a class="btn" href="https://careers.services.global.ntt/global/en/search-results?keywords=Salesforce%20Colombia" target="_blank" rel="noopener">NTT</a>
+          <a class="btn ghost" href="https://www.linkedin.com/jobs/search/?keywords=Salesforce%20Engineer%20BairesDev&location=Colombia" target="_blank" rel="noopener">BairesDev</a>
+          <a class="btn ghost" href="https://www.globant.com/careers" target="_blank" rel="noopener">Globant</a>
+          <a class="btn ghost" href="https://www.accenture.com/co-es/careers/jobsearch" target="_blank" rel="noopener">Accenture</a>
+        </div>
+      </article>
+    </div>
+
+    <h2>3. Freelance hoy (más rápido que un proceso de 4 semanas)</h2>
+    <div class="grid">
+      <article class="hot">
+        <span class="tag">Esta tarde</span>
+        <strong>Workana + Upwork</strong>
+        <div class="meta">Publicar perfil (texto en 03-freelance.md) y 10 propuestas. Primeros gigs a precio de reseña.</div>
+        <div class="row">
+          <a class="btn" href="https://www.workana.com/es/jobs?query=salesforce" target="_blank" rel="noopener">Workana Salesforce</a>
+          <a class="btn ghost" href="https://www.upwork.com/nx/search/jobs/?q=salesforce%20developer" target="_blank" rel="noopener">Upwork</a>
+        </div>
+      </article>
+    </div>
+
+    <h2>4. Alertas para no perder lo que salga mañana</h2>
+    <ul class="links">
+      <li><a href="https://www.linkedin.com/jobs/search/?keywords=Salesforce&location=Colombia&f_TPR=r604800" target="_blank" rel="noopener">LinkedIn Salesforce Colombia — última semana</a> (1000+ avisos; filtrar Developer / Admin)</li>
+      <li><a href="https://co.computrabajo.com/trabajo-de-salesforce" target="_blank" rel="noopener">Computrabajo Salesforce</a></li>
+      <li><a href="https://www.magneto365.com/co/empleos?q=salesforce" target="_blank" rel="noopener">Magneto Salesforce</a></li>
+      <li><a href="https://www.getonbrd.com/jobs?q=salesforce" target="_blank" rel="noopener">Get on Board Salesforce</a></li>
+    </ul>
+
+    <h2>Archivos del kit</h2>
+    <ul class="links">
+      <li><a href="01-aplicar-hoy.md">01 — lista completa y qué no perder tiempo</a></li>
+      <li><a href="02-cartas-y-mensajes.md">02 — cartas, InMails, pretensión, hueco 2026</a></li>
+      <li><a href="03-freelance.md">03 — perfiles y propuestas freelance</a></li>
+      <li><a href="04-cv-y-linkedin.md">04 — headline, About, ATS, Trailhead</a></li>
+      <li><a href="05-plan-b-urgente.md">05 — soporte, QA, BPO, clases si hace falta plata ya</a></li>
+      <li><a href="tracker.csv">tracker.csv — marcar cada envío</a></li>
+    </ul>
+  </main>
+  <footer>Uso personal. No incluye teléfono ni correo. Revisar cada link antes de postular: los avisos cierran sin aviso.</footer>
+</body>
+</html>
