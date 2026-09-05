@@ -17,7 +17,7 @@ Kit listo para postular **hoy**. Diana es desarrolladora Salesforce (Apex, LWC, 
 
 ## Meta de esta semana
 
-- **Lunes–martes:** 10 Salesforce + 10 Angular/Node + LinkedIn Open to Work + 2 perfiles freelance.
+- **Lunes–martes:** 10 Salesforce + 10 Angular/Node + LinkedIn Open to Work + 2 perfiles freelance. Sin ProContacto.
 - **Miércoles–jueves:** consultoras + 15 propuestas Workana (priorizar Angular/Node; hay más gigs).
 - **Viernes:** follow-up a reclutadores y Trailhead visible en el perfil.
 

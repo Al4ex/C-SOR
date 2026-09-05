@@ -67,16 +67,11 @@ También: JS/HTML/CSS, MySQL, Angular (proyecto Inventario SAPPs).
 
 ---
 
-## 4) Mensaje a ProContacto (prioridad alta)
+## 4) ProContacto — no reingresar
 
-```
-Hola [NOMBRE], ¿cómo estás?
+Decisión tomada: el ambiente era pesado. No escribir a RR.HH. ni pedir volver.
 
-Te escribo porque estoy 100% disponible de inmediato y quiero retomar proyectos Salesforce (Apex, LWC, integraciones). Si hay cupo en algún cliente, o si conoces otra fábrica/consultora que esté armando equipo, te agradezco el dato o una referencia.
-
-Puedo entrar esta misma semana. Un abrazo,
-Diana
-```
+Sí está bien: poner ProContacto en el CV (es experiencia real). Si hay **una colega de confianza que ya se fue**, un referido a *otra* empresa es distinto a volver. Si no hay esa persona, no persigas a nadie de allá.
 
 ---
 

@@ -40,7 +40,7 @@ No esperar a que la vacante “junior” esté abierta. Enviar CV a bolsa de tal
 | **Softtek / Endava / Encora / Perficient** | LinkedIn Easy Apply + career site | Nearshore USA; inglés B1 puede frenar, igual enviar. |
 | **AgileEngine** | LinkedIn “Salesforce Consultant/Developer” | Muchas plazas esta semana (senior). Postular y pedir junior/mid. |
 | **Zemsania / Sforzo / Interfell / Improving** | LinkedIn + [Get on Board Salesforce](https://www.getonbrd.com/jobs?q=salesforce) | Staffing LATAM. Improving y Devsu cierran y reabren. |
-| **ProContacto** (ex empleador) | WhatsApp/correo a líder o RR.HH. | La vía más rápida: “¿hay proyecto nuevo? Estoy disponible ya.” |
+| ~~ProContacto~~ | — | **No.** Ambiente pesado. No reingresar. La experiencia sí va en el CV; la empresa no. |
 
 ---
 
@@ -87,5 +87,5 @@ Crear alerta en cada una (correo + app). Filtrar **última semana**.
 
 - 10 Easy Apply LinkedIn (Bloque A + B).
 - 3 formularios de empresa (Slalom, Inetum, Michael Page).
-- 1 mensaje a ProContacto.
-- Perfil Workana + Upwork publicados (ver `03-freelance.md`).
+- 10 Angular/Node + Workana/Upwork (ver `06-angular-nodejs.md` y `03-freelance.md`).
+- No contactar a ProContacto.
