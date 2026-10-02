@@ -17,7 +17,6 @@ from .paleta import C
 from .svg import (
     circulo,
     colocar,
-    elipse,
     grupo,
     linea,
     n,

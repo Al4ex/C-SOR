@@ -15,7 +15,6 @@ from .svg import (
     circulo,
     colocar,
     documento,
-    el,
     grupo,
     linea,
     n,
