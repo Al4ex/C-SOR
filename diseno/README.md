@@ -12,12 +12,17 @@ signos y símbolos del universo de *Naruto*.
 | `huipil-istmo-naruto.svg` | Plano vectorial editable: delantero, espalda, cotas, leyenda de motivos y paleta. |
 | `huipil-istmo-naruto.png` | Render del plano (3380 × 2040 px). |
 | `generar_huipil.py` | Generador del SVG (Python 3, sin dependencias). Cambia colores, medidas o motivos y vuelve a ejecutarlo. |
+| `ilustracion-delantero.jpg` / `ilustracion-espalda.jpg` | Ilustraciones de la prenda bordada (generadas con IA a partir del plano, como referencia visual de acabado). |
 
 ```bash
 python3 generar_huipil.py   # escribe huipil-istmo-naruto.svg
 ```
 
 ![Plano del huipil](huipil-istmo-naruto.png)
+
+| Delantero | Espalda |
+|---|---|
+| ![Ilustración delantero](ilustracion-delantero.jpg) | ![Ilustración espalda](ilustracion-espalda.jpg) |
 
 ---
 
