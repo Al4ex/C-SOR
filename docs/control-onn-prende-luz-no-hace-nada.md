@@ -21,6 +21,24 @@ Por eso es el síntoma más común: **el LED prende y el aparato se hace wey**. 
 
 **Regla de oro:** cambia las pilas **antes** de cualquier otra cosa. El LED gasta poquito; el IR y el Bluetooth gastan más. Pilas flojas = luz sí, mando no.
 
+### Rojo, blanco o verde
+
+En Mercado Libre se mezclan fotos de **dos generaciones**. El color **no** dice si el control está descompuesto.
+
+| Dónde está la luz | Color | Qué significa |
+|-------------------|-------|----------------|
+| **Cajita** Onn 4K / Google TV | **Blanco** | Encendida (oficial). |
+| **Cajita** Onn 4K / Google TV | **Rojo** | **Reposo (standby).** El control puede prender LED y la cajita no hace nada. Despiértala. |
+| **Cajita** Onn 4K Pro | Varias **rojas** al frente | Micrófono del aparato. Switch de voz al **costado**. No es el control. |
+| **Cajita** | **Verde** | **No es el LED oficial** de la Onn 4K. Otra marca, clon, o están fotografiando el TV. |
+| **Control** (al apretar y se apaga) | **Rojo** | Normal en Onn **Google TV** y en universales. El que te acaba de llegar suele ser este. |
+| **Control** (al apretar y se apaga) | **Verde** | Normal en el control **blanco viejo** de Onn Android TV UHD (`100024646` / `100026240`). |
+| **Control** | Verde o rojo **fijo**, no se apaga | Control colgado (a veces tras un update). Saca pilas 30 s. Si sigue pegado: otro control. |
+
+Si compraste en Mercado Libre y en las fotos “a algunos les sale verde”: son **otro modelo** o un genérico. No cambies el control solo por el color. Sí fíjate en los **botones** y el **número de adentro de la tapa**.
+
+Detalle y cómo despertar la cajita: sección 15.
+
 ---
 
 ## 2. Identifica tu control (30 segundos)
@@ -70,6 +88,9 @@ Si después de esto sigue igual, ve al diagnóstico.
 | El TV enciende con el botón de atrás, el control no | El TV está bien; el control no emite o no está pareado | Sección 9, luego 5–8 |
 | Después de un apagón o update dejó de servir | Se le olvidó el pairing | Sección 5 o 6 |
 | Universal: LED prende, TV no hace caso | Código perdido o modo SAT en vez de TV | Sección 8 |
+| Cajita con **luz roja**, control prende y no mueve nada | Cajita en **standby** | Sección 15.1 |
+| Tu control es **rojo** y en ML sale **verde** | Otra generación, no un defecto | Sección 15.2 |
+| LED **verde o rojo fijo** (no se apaga) | Control colgado / brick de firmware | Sección 15.3 |
 
 ---
 
@@ -80,7 +101,7 @@ Es el caso más frecuente de “prende luz y no hace nada”. El LED enciende au
 ### 5.1 Re-parear (oficial)
 
 1. TV encendido, **entrada HDMI** de la cajita Onn.
-2. Cajita con luz **blanca** (encendida). Roja = reposo: despiértala con el botón de power del TV o desenchufa y vuelve a conectar.
+2. Cajita con luz **blanca** (encendida). **Roja = reposo**: el control “prende” y la caja no hace caso. Despiértala (sección 15.1).
 3. En el control, mantén **Atrás (←) + Inicio (casita)** hasta que el LED **parpadee**.
 4. En la **cajita**, mantén el botón **Reset** (hoyito o botón chico, atrás o abajo) **5 segundos**. Eso solo resetea el pairing, no borra tus apps.
 5. Acerca el control a la cajita. En pantalla debe salir “Pairing successful” / “Control emparejado”.
@@ -234,7 +255,7 @@ Cambia el control si:
 - Se mojó, se partió o los botones ya no regresan.
 - Costó menos de lo que te va a tardar desarmarlo.
 
-Repuestos en México (Walmart, Mercado Libre): busca **el modelo de adentro de la tapa** (ej. `100021244`, `100026240`, `100003397`, o “onn Google TV remote”). Los genéricos “para Onn 4K” suelen servir si dicen **Bluetooth + IR**. Un universal barato **no reemplaza** el control de la cajita para menús y voz.
+Repuestos en México (Walmart, Mercado Libre): busca **el modelo de adentro de la tapa** (ej. `100021244`, `100026240`, `100003397`, o “onn Google TV remote”). El LED puede salir **rojo o verde**; no elijas por color (sección 15). Los genéricos “para Onn 4K” suelen servir si dicen **Bluetooth + IR**. Un universal barato **no reemplaza** el control de la cajita para menús y voz.
 
 Mientras llega el nuevo, usa la app del teléfono (sección 11).
 
@@ -250,3 +271,54 @@ Mientras llega el nuevo, usa la app del teléfono (sección 11).
 - [ ] Prueba de cámara: ¿hay destello IR?
 - [ ] App del teléfono como control de respaldo
 - [ ] Si IR muerto o pairing imposible: control nuevo del mismo modelo
+- [ ] Si la cajita está **roja**: despertarla (no es el color “malo” de Mercado Libre)
+
+---
+
+## 15. Rojo vs verde (lo de Mercado Libre)
+
+Onn vendió **varias cajas y controles**. En ML se mezclan fotos, reseñas y genéricos. El color del LED **no es prueba de original ni de falla**.
+
+### 15.1 La luz está en la cajita (no en el control)
+
+Manual de la Onn 4K / Google TV:
+
+- **Blanco** = encendida.
+- **Rojo** = standby. Está “dormida”: HDMI puede irse a negro y el control parece muerto aunque su LED prenda.
+
+Cómo despertarla:
+
+1. En el TV, entra al **HDMI** de la cajita.
+2. Desenchufa la cajita **10 segundos** y vuélvela a conectar. Debe pasar a **blanco**.
+3. Si se queda roja: botón **power** del control, o el botón/joystick **del televisor**.
+4. Onn **4K Pro**: si ves **varias rojas** al frente, mira el **switch del costado** (micrófono). Eso no controla el pairing.
+
+La Onn 4K oficial **no trae LED verde**. Si en el anuncio de ML la cajita se ve verde, es otra marca, un clon, o le tomaron foto al LED del televisor.
+
+### 15.2 La luz está en el control (al apretar)
+
+| LED al apretar | Qué control es | Sirve con |
+|----------------|----------------|-----------|
+| **Rojo** | Onn **Google TV** actual y universales Onn | Caja Google TV 4K / 4K Pro / Plus. Es el que más llega hoy. |
+| **Verde** | Control **blanco** de Onn **Android TV UHD** vieja | Caja/stick `100024646`, `100026240` (Android TV, no Google TV). |
+
+Las dos generaciones se emparejan igual: **Atrás + Inicio** hasta que parpadee, **Reset 5 s** en la caja.
+
+Que en las fotos de ML “a algunos les salga verde” **no significa que el tuyo rojo esté mal**. El vendedor recicla fotos del modelo viejo o de un genérico. Compara:
+
+1. **Botones:** ¿trae Netflix / YouTube / Disney y casita de Google, o layout viejo de Android TV?
+2. **Número dentro de la tapa** vs el de tu caja (etiqueta abajo).
+3. Que diga **Bluetooth**, no solo “control IR universal para Onn”.
+
+Un control de **otra generación** a veces sí parea (mismo truco Atrás + Home). Si no parea con pilas nuevas, el problema no es el color: es incompatibilidad o clon IR.
+
+### 15.3 LED pegado (verde o rojo que no se apaga)
+
+Eso ya no es “el color de ML”. El control se quedó a medias, a veces tras un **update de firmware** del control (pasó con el blanco de LED verde).
+
+1. Saca las **dos pilas 30 segundos**.
+2. Al volverlas a poner, prueba: insertar pilas **manteniendo Atrás**, o manteniendo **Home**.
+3. Luego Atrás + Home otra vez.
+4. Si el LED **sigue fijo** y ningún botón lo cambia: el control está brick. En México no hay refacción oficial fácil; **compra otro** (mismo número de modelo) y usa la app mientras tanto (sección 11).
+
+No desarmes para “cambiar el LED de rojo a verde”: es otro circuito, no un foco intercambiable.

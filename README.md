@@ -17,4 +17,8 @@ Guías prácticas en español.
    - **Roku:** botón **Pair** (o Atrás + Home) 5 segundos, pegado al TV.
    - **IR / universal:** apunta a la ventanita del TV, no a la pantalla. Si es universal, botón **TV** y vuelve a meter el código.
 
-La lucecita **no es la señal**. Pilas flojas, pairing perdido o IR muerto dejan el LED vivo y el aparato mudo. El detalle está en la [guía completa](docs/control-onn-prende-luz-no-hace-nada.md).
+La lucecita **no es la señal**. Pilas flojas, pairing perdido o IR muerto dejan el LED vivo y el aparato mudo.
+
+**Rojo vs verde:** en la cajita, rojo = reposo y blanco = encendida (no trae verde). En el control, rojo es el Google TV de ahora; verde es el Android TV viejo. En Mercado Libre se mezclan las fotos: el color no dice si está descompuesto.
+
+El detalle está en la [guía completa](docs/control-onn-prende-luz-no-hace-nada.md).
