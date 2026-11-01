@@ -1,9 +1,9 @@
 # C-SOR
 
-## Linux para juegos y la gráfica
+## Linux para juegos en la Thunderobot R15 (RTX 4060)
 
-Sí se puede instalar una distro de juegos y usar la gráfica de verdad. En un solo jugador de Steam, una Radeon RDNA 2 o 3 queda cerca de Windows. Una NVIDIA RTX reciente también juega, con resultados más irregulares y el ray tracing casi siempre por detrás. Una GTX 900 o 1000 sigue teniendo driver, en la imagen legacy.
+Sí. La RTX 4060 de laptop es Ada y usa el driver abierto de NVIDIA. La imagen concreta es **Bazzite `bazzite-nvidia-open`** (escritorio KDE). SteamOS oficial no sirve en esta máquina: Valve todavía no soporta NVIDIA.
 
-Lo que ninguna distro iguala es el anti-cheat de kernel: Valorant, League of Legends, Fortnite, Apex, Call of Duty con Ricochet, Battlefield, EA Sports FC y varios más no arrancan. Si esos son el uso diario, Windows se queda en otro disco.
+La laptop es híbrida: Intel UHD más la 4060. Si el juego se va a la Intel, se siente otra computadora. El panel de Thunderobot (ventiladores, modos, RGB) se queda en Windows. Valorant, League, Fortnite, CoD, Battlefield y EA FC siguen sin arrancar.
 
-La guía, con distro según la marca y las fuentes al 1 de noviembre de 2026, está en [docs/linux-gpu-juegos.md](docs/linux-gpu-juegos.md). Falta el modelo exacto de la gráfica para cerrar una sola recomendación.
+Detalle, variantes del modelo y fuentes: [docs/linux-gpu-juegos.md](docs/linux-gpu-juegos.md).

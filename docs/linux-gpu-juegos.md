@@ -1,8 +1,50 @@
 # Linux para juegos: ¿la gráfica puede funcionar como en Windows?
 
-Investigación al **1 de noviembre de 2026**. No tenemos el modelo exacto de la gráfica en este chat, así que la respuesta va por marca. El modelo (RTX 3060, RX 6700 XT, GTX 1660, Arc A770…) cambia la recomendación.
+Investigación al **1 de noviembre de 2026**. La máquina de este caso es una **Thunderobot R15 con RTX 4060**.
 
-## Respuesta corta
+## Tu laptop: Thunderobot R15 + RTX 4060
+
+Sí se puede. La 4060 de laptop es Ada (el chip móvil es el AD107M) y entra en la imagen moderna de NVIDIA, no en la legacy de las GTX 1000. En el estable de Bazzite del 26 de octubre de 2026 ese driver es el módulo abierto **615.78.08**.
+
+La imagen que corresponde es la de escritorio:
+
+`bazzite-nvidia-open`
+
+KDE, sin modo consola. SteamOS no: Valve, a noviembre de 2026, solo soporta GPU AMD en la imagen de escritorio. La imagen `bazzite` a secas (la de AMD/Intel) tampoco: instalaría el sistema y los juegos saldrían por la gráfica Intel. La imagen `bazzite-deck-nvidia` arranca en modo consola; en NVIDIA ese modo sigue en beta y esta R15 se usa como laptop, no como consola de sala.
+
+### Qué es esta R15
+
+Thunderobot vende la misma línea como 猎刃15, Hunter Blade R15 y, en algunas tiendas, Radiant 15. La ficha oficial y los equipos medidos en UserBenchmark coinciden en esto:
+
+| Pieza | Lo que trae la línea |
+|-------|----------------------|
+| Pantalla | 15.6 pulgadas, 2560×1440, 165 Hz, IPS, 100% sRGB |
+| CPU | Lo más común es el Intel Core i7-13650HX. También existen i7-14650HX, i7-14700HX e i9-14900HX |
+| Gráficas | **RTX 4060 Laptop, 8 GB**, más **Intel UHD**. Es híbrida |
+| Wi-Fi | La ficha de la 猎刃15 lista Intel Wi-Fi 6 AX101 y Bluetooth 5.2 |
+| Corriente | Adaptador de 180 W en la ficha oficial |
+
+El vataje de la 4060 no está en esa ficha. Un comentario de junio de 2024 en Reddit lo estimó cerca de 105 W. Un título de video habla de 140 W y de MUX. Ninguno de los dos es una especificación de Thunderobot, así que no cierro el número. En Windows y en Linux el techo de potencia es el mismo: el sistema no le regala vatios a la tarjeta.
+
+Intel documenta el AX101 en el driver `iwlwifi` desde el kernel 5.2, y su paquete de diciembre de 2024 sigue incluyéndolo. El kernel 7.2 de Bazzite está muy por encima. Hubo fallos de firmware con AX101 en kernels y paquetes viejos (Debian, 2024). Con el firmware actual de una distro de 2026 es el caso fácil. Una página genérica de drivers de “Thunderobot R15” lista un Bluetooth MediaTek (`USB\VID_13D3&PID_3621`); puede ser otra variante. En Windows, Administrador de dispositivos → Adaptadores de red dice cuál trae la tuya. Si el Wi-Fi fallara el primer día, el Ethernet Realtek de estas placas (RTL8111 en una Thunderobot ZERO hermana) es el cable de respaldo.
+
+No hay una sonda pública de Linux de esta R15 exacta. Sí hay una de una Thunderobot ZERO de 2023, misma marca, con RTX 4060 móvil e Intel UHD, en Ubuntu 24.04: el driver `nvidia` figura como funcional y la UHD con `i915` también. Sirve como familiar, no como prueba de tu número de serie.
+
+### Lo que en esta laptop no queda como en Windows
+
+1. **Hay que confirmar que el juego usa la 4060.** La pantalla interna, en estas híbridas, la maneja la Intel. La 4060 dibuja y le pasa el cuadro. Si Steam se queda en la UHD, un juego que en Windows va fluido aquí va a tirones. Con un juego abierto, `nvidia-smi` tiene que mostrar el proceso. Si no aparece, el arreglo de esa sesión es lanzar Steam con `__NV_PRIME_RENDER_OFFLOAD=1 __GLX_VENDOR_LIBRARY_NAME=nvidia`.
+2. **El programa de Thunderobot no existe en Linux.** Curvas de ventilador, modos silencioso/rendimiento y el RGB de tres zonas se controlan desde su app de Windows. En Linux los ventiladores siguen la curva de la placa. No hay soporte confirmado de OpenRGB para este chasis.
+3. **8 GB a 1440p.** Es el mismo límite que en Windows. A 2560×1440, DLSS en Calidad o Equilibrado es la forma de jugar en los dos sistemas. DLSS en esta 4060 funciona por Proton; si Frame Generation desaparece del menú, se prueba otra versión de Proton antes de cambiar de distro.
+4. **Batería y suspensión.** En laptops NVIDIA, Linux gasta más batería. Suspender y despertar hay que probarlo una noche antes de darlo por bueno. Los 165 Hz de la pantalla sí los maneja el escritorio.
+5. **Anti-cheat.** Igual que en cualquier otra PC: Valorant, League, Fortnite, Apex, CoD con Ricochet, Battlefield, EA FC, Rainbow Six, Destiny 2, PUBG y Roblox no arrancan.
+
+### Cómo probarlo en la R15 sin perder Windows
+
+La R15 normalmente trae un solo SSD con Windows. Un comentario de 2024 dice que el chasis de la Hunter Blade tiene varias ranuras M.2; la ficha oficial no lo confirma. Si al abrirla hay una ranura libre, un SSD chico es el experimento limpio y el disco de Windows no se toca. Si no hay ranura libre, se achica la partición de Windows desde Windows (Administración de discos) después de un respaldo, y Bazzite se instala en el espacio libre. La imagen de SteamOS regraba el disco: en esta laptop no es el camino.
+
+En el primer arranque, con Secure Boot encendido, Bazzite pide enrolar su llave (la contraseña de esa pantalla es `universalblue`, según su documentación). Sin esa llave el módulo NVIDIA no carga y el escritorio queda sin aceleración, que se ve igual que un driver roto.
+
+## Respuesta corta, para otras gráficas
 
 Sí se puede instalar una distro de juegos y usar la gráfica de verdad: Steam, Proton, Vulkan, DLSS o FSR, HDR y frecuencia variable. En un solo jugador de Steam, y en muchos multijugador con anti-cheat compatible, la experiencia ya es de PC gamer, no de “Linux sin drivers”.
 
@@ -78,6 +120,11 @@ Antes de formatear, los cinco juegos que más se usan se buscan en [ProtonDB](ht
 
 ## Fuentes
 
+- Thunderobot, ficha 猎刃15 con RTX 4060: pantalla 2.5K 165 Hz, Intel UHD, Wi-Fi 6 AX101, Bluetooth 5.2, adaptador de 180 W. https://www.thunderobot.com/item/1526.html
+- UserBenchmark, sistemas “Thunderobot R15”: i7-13650HX el más repetido, también i7-14650HX, y RTX 4060 Laptop junto a UHD Graphics. https://www.userbenchmark.com/System/Thunderobot-R15/339760
+- linux-hardware.org, sonda de una Thunderobot ZERO (no es la R15) con RTX 4060 móvil, driver `nvidia` en estado works, Ubuntu 24.04. https://linux-hardware.org/?probe=9f1b5806e2
+- Intel, soporte Linux de adaptadores inalámbricos: AX101 desde el kernel 5.2. https://www.intel.com/content/www/us/en/support/articles/000005511.html
+- Bazzite FAQ, tabla de imágenes: `bazzite-nvidia-open` es escritorio KDE para NVIDIA Turing en adelante, sin Steam Gaming Mode. https://docs.bazzite.gg/General/FAQ/
 - Bazzite, página oficial (aviso de NVIDIA en Gaming Mode / HTPC como beta) y release estable `44.20261026` del 26 oct 2026: kernel 7.2.11, Mesa 26.2.4, Nvidia Open 615.78.08, Nvidia LTS 580.178.04. https://bazzite.gg/ y https://github.com/ublue-os/bazzite/releases
 - Universal Blue, nota de las imágenes legacy: el branch 580 es el último con Maxwell, Pascal y Volta, y esas imágenes pasan a kernel LTS. https://universal-blue.discourse.group/t/bazzites-biggest-update-deck-44-has-launched-happy-birthday-to-universal-blue/12373
 - Phoronix, SteamOS 3.8.10 estable, 18 jun 2026. https://www.phoronix.com/news/SteamOS-3.8.10-Stable
